@@ -19,7 +19,7 @@
  
  $ touch script.js
  
- $ git add-A
+ $ git add -A
  
  $ git status
  
@@ -37,13 +37,31 @@
  
  $ git diff - it will show what changes have been done
  
- $ git add-A
+ $ git add -A
  
  $ git diff --staged
  
  $ git commit -a -m "skipped the stagging area"
  
  $ git commit
+ 
+ $ git status
+ 
+ $ touch waste.html
+ 
+ $ git add -A
+ 
+ $ git commit -m " added a dummy file "
+ 
+ $ git rm -- cached waste.html
+ 
+ $ git status
+ 
+ $ git rm waste.html
+ 
+ $ git add -A
+ 
+ $ git status
  
  
  

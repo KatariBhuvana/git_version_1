@@ -1,26 +1,41 @@
- git init
+ $ git init
  
- ls -lrt
+ $ ls -lrt
  
- git status
+ $ git status
  
  # if it is asking who are you 
- git config --global user.name
- git config --global user.email
+ $ git config --global user.name
+ $ git config --global user.email
  
- git add file name
+ #if it specifies and/or then we need to add file
+ $ git add file name
  
- git commit
+ $ git commit
  
- touch style.css
+ #after giving some content in home page 
  
- touch script.js
+ $ touch style.css
  
- git add-A
+ $ touch script.js
  
- git status
+ $ git add-A
  
- git commit -m "updated HTML and CSS and JSS file"
+ $ git status
+ 
+ $ git commit -m "updated HTML and CSS and JSS file"
+ 
+ $ git checkout file name
+ 
+ $ git checkout -f 
+ 
+ $ git log - to see what are the changes done 
+ 
+ $ clear - it will clear off everything and gives you screen clear but still you will have the transaction 
+ 
+ 
+ 
+ 
  
  
  

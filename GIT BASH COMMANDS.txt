@@ -20,7 +20,7 @@
  
  git status
  
- git commit -m "updated HTML and cs js files"
+ git commit -m "updated HTML and CSS and JSS file"
  
  
  

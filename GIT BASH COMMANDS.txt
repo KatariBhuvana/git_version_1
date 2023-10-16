@@ -1,0 +1,30 @@
+ git init
+ 
+ ls -lrt
+ 
+ git status
+ 
+ # if it is asking who are you 
+ git config --global user.name
+ git config --global user.email
+ 
+ git add file name
+ 
+ git commit
+ 
+ touch style.css
+ 
+ touch script.js
+ 
+ git add-A
+ 
+ git status
+ 
+ git commit -m "updated HTML and cs js files"
+ 
+ 
+ 
+ 
+ 
+ 
+ 

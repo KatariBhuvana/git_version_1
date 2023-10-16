@@ -33,7 +33,17 @@
  
  $ clear - it will clear off everything and gives you screen clear but still you will have the transaction 
  
+ $ git status
  
+ $ git diff - it will show what changes have been done
+ 
+ $ git add-A
+ 
+ $ git diff --staged
+ 
+ $ git commit -a -m "skipped the stagging area"
+ 
+ $ git commit
  
  
  
